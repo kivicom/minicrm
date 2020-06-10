@@ -1,0 +1,60 @@
+@import url('all.css');
+.used{
+    color: #018201;
+}
+.not_used{
+    color: #1d643b;
+}
+.expired {
+    color: #ff0202;
+}
+.expired{
+    font-weight: bold;
+}
+.table thead th {
+    vertical-align: top;
+    font-size: 12px;
+    text-align: center;
+}
+.table thead th span {
+    display: block;
+}
+.table {
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.modal-open .ui-widget.ui-widget-content {
+    z-index: 1051;
+}
+
+#oneHistory .modal-lg {
+    max-width: 1200px;
+}
+.editCall .btn.btn-primary {
+    margin-bottom: 10px;
+}
+tr.red , .table-hover tbody tr.tr:hover{
+    background-color: #8e0606 !important;
+    color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+}
+tr.blue, .table-hover tbody tr.tr:hover {
+    background: #d7f3fa !important;
+}
+td a i {
+    font-size: 24px;
+}
+.fab.fa-whatsapp-square, .fas.fa-phone-square-alt, .fas.fa-envelope-square {
+    font-size: 39px;
+}
+.fab.fa-whatsapp-square{
+    color: #529159;
+}
+.fas.fa-phone-square-alt {
+    color: #0768ff;
+}
+.fas.fa-envelope-square{
+	color: #f05315;
+}
